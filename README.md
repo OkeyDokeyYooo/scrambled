@@ -2,12 +2,12 @@
 
 ## Requirements
 
-1. Create a new file called scrambled.c, containing a single function that matches this declaration:
-  int scrambled( unsigned int a[], unsigned int b[], unsigned int len );
-2. Arrays a and b are both of length len, and contain values in the range [0 .. 99] inclusive, only.
-3. The function scrambled() should return 1 iff arrays a and b contain the same values in any order, or 0 otherwise.
-4. len can have any unsigned int value, including 0.
-5. If len is 0 then scrambled() should return 1 (since the arrays have the same - empty -
+1. Create a new file called `scrambled.c`. The file contains a single function that matches this declaration:
+  `int scrambled( unsigned int a[], unsigned int b[], unsigned int len );`
+2. Arrays `a` and `b` are both of length `len`, and only contain values in the range [0 .. 99] inclusive.
+3. The function `scrambled()` should return 1 if and only if arrays `a` and `b` contain the same values in any order, or 0 otherwise.
+4. `len` can have any unsigned int value, including 0.
+5. If `len` is 0 then scrambled() should return 1 (since the arrays have the same - empty -
 contents).
 6. You must not change the contents of the arrays.
 7. Use an algorithm that has run time linear in the array length n. Note that this means you
